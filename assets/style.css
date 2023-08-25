@@ -1,0 +1,254 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+audio{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/star.jpg);
+}
+
+
+.container_planet {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neptune_ {
+  position: absolute;
+  height: 710px;
+  width: 710px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.neptune_ > img {
+  height: 40px;
+  width: 40px;
+  animation: neptune 59954ms ease infinite;
+}
+
+@keyframes neptune {
+  0% {
+    transform: rotate(0deg) translate(360px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(360px) rotate(360deg);
+  }
+}
+
+.uranus{
+  position: absolute;
+  height: 650px;
+  width: 650px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.uranus> img {
+  height: 40px;
+  width: 40px;
+  animation: uranus 49999ms linear infinite;
+}
+
+@keyframes uranus {
+  0% {
+    transform: rotate(0deg) translate(320px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(320px) rotate(360deg);
+  }
+}
+
+.saturn {
+  position: absolute;
+  height: 580px;
+  width: 580px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.saturn> img {
+  height: 80px;
+  width: 80px;
+  animation: saturn 21954ms linear infinite;
+}
+
+@keyframes saturn {
+  0% {
+    transform: rotate(0deg) translate(290px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(290px) rotate(360deg);
+  }
+}
+
+.jupiter{
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  z-index: 1;
+}
+
+.jupiter> img {
+  height: 50px;
+  width: 50px;
+  animation: jupiter 31999ms linear infinite;
+}
+
+@keyframes jupiter {
+  0% {
+    transform: rotate(0deg) translate(250px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(250px) rotate(360deg);
+  }
+}
+
+.mars {
+  position: absolute;
+  height: 450px;
+  width: 450px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.mars > img {
+  height: 50px;
+  width: 50px;
+  animation: mars 21911ms linear infinite;
+}
+
+@keyframes mars {
+  0% {
+    transform: rotate(0deg) translate(225px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(225px) rotate(360deg);
+  }
+}
+
+.earth {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.earth> img {
+  height: 40px;
+  width: 40px;
+  animation: earth 29999ms linear infinite;
+}
+
+@keyframes earth {
+  0% {
+    transform: rotate(0deg) translate(200px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(200px) rotate(360deg);
+  }
+}
+
+.venus {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.venus> img {
+  height: 40px;
+  width: 40px;
+  animation: venus 62999ms linear infinite;
+}
+
+@keyframes venus {
+  0% {
+    transform: rotate(0deg) translate(170px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(170px) rotate(360deg);
+  }
+}
+
+
+.mercury{
+  position: absolute;
+  height: 280px;
+  width: 280px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.mercury> img {
+  height: 40px;
+  width: 40px;
+  animation: mercury 19959ms linear infinite;
+}
+
+@keyframes mercury {
+  0% {
+    transform: rotate(25deg) translate(140px) rotate(25deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(140px) rotate(360deg);
+  }
+}
+
+.sun {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+
+
+
+
