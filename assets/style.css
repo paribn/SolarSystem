@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/star.jpg);
+  background-image: url(img/star.gif);
 }
 
 
@@ -120,7 +120,7 @@ body {
 .jupiter> img {
   height: 50px;
   width: 50px;
-  animation: jupiter 31999ms linear infinite;
+  animation: jupiter 35674ms linear infinite;
 }
 
 @keyframes jupiter {
@@ -230,7 +230,7 @@ body {
 
 @keyframes mercury {
   0% {
-    transform: rotate(25deg) translate(140px) rotate(25deg);
+    transform: rotate(0deg) translate(140px) rotate(0deg);
   }
   100% {
     transform: rotate(360deg) translate(140px) rotate(360deg);
